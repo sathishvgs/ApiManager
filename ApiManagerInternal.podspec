@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ApiManagerInternal"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Library For Internal purpose"
   s.description  = <<-DESC
   A nice ApiManager file which will be helpful for Networking

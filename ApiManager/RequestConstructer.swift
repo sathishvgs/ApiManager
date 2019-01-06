@@ -61,37 +61,22 @@ extension TargetRequest: TargetType {
         switch self {
         case .fetchContactSkillSets(let apiKey, let contactId):
             queryParams = defaultQueryParam(apiKey: apiKey)
-            queryParams["contactID"] = contactId
             
         case .fetchContact(let accountId, _):
             queryParams = defaultQueryParam(apiKey: accountId)
             
         case .fetchContacts(let accountId, _):
-            var queryParams = defaultQueryParam(apiKey: accountId)
-            queryParams["ignore"] = "deleted"
+            queryParams = defaultQueryParam(apiKey: accountId)
             
         case .fetchContactsWith(let accountId, let cursor):
-            var queryParams = defaultQueryParam(apiKey: accountId)
-            if let cursorValue = cursor {
-                queryParams["cursor"] = cursorValue
-            }
-            queryParams["limit"] = 20
+            queryParams = defaultQueryParam(apiKey: accountId)
             
         case .searchContacts(let accountId, let queryType, let query, let limit, let cursor):
-            var queryParams = defaultQueryParam(apiKey: accountId)
-            if let cursorValue = cursor {
-                queryParams["cursor"] = cursorValue
-            }
-            queryParams["queryType"] = queryType.type
-            queryParams["queryString"] = query
-            queryParams["limit"] = limit
+            queryParams = defaultQueryParam(apiKey: accountId)
             
         case .updateContact(let contactId, _):
-            var queryParam: [String: Any]? = nil
-            if let userId = contactId {
-                queryParam = [:]
-                queryParam?["userId"] = userId
-            }
+            queryParams = [:]
+ 
         default:
             return nil
         }
@@ -147,9 +132,9 @@ public enum DSContactQueryType {
     var type: String {
         switch self {
         case .contact:
-            return "contact"
+            return ""
         case .contactMethods:
-            return "contactmethods"
+            return ""
         }
     }
 }
