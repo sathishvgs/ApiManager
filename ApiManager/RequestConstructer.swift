@@ -26,19 +26,19 @@ extension TargetRequest: TargetType {
         
         switch self {
         case .fetchCurrentUser:
-            return "/api/v1.0/me"
+            return ""
         case .fetchContactSkillSets:
-            return "Skills/getContactSkillSetAndSkillSet"
+            return ""
         case .fetchContact:
-            return "Contact/getReqContacts"
+            return ""
         case .fetchContacts:
-            return "Contact/getReqContacts"
+            return ""
         case .fetchContactsWith:
-            return "Contact/getAllContacts"
+            return ""
         case .searchContacts:
-            return "Search/index/fetchRecords"
+            return ""
         case .updateContact:
-            return "api/v1/user"
+            return ""
         }
     }
     

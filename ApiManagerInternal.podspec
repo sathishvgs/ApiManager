@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ApiManager"
+  s.name         = "ApiManagerInternal"
   s.version      = "0.0.1"
   s.summary      = "A Library For Internal purpose"
   s.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "http://EXAMPLE/ApiManager.git", :tag => "s.version.to_s" }
+  s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
   s.dependency "Alamofire", "~> 4.0"
 
 end
