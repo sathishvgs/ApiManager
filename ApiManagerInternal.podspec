@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ApiManagerInternal"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A Library For Internal purpose"
   s.description  = <<-DESC
   A nice ApiManager file which will be helpful for Networking
@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
+  s.ios.vendored_frameworks = 'ApiManager.framework'
 
   #s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag =>    
   #s.version.to_s }
