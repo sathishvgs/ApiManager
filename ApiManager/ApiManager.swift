@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class ApiManager: BaseApiManager {
+public class ApiManagerInternal: BaseApiManager {
     
     public override init(accessToken: String, apiMode: ApiMode, apiVersion: String) {
         super.init(accessToken: accessToken, apiMode: apiMode, apiVersion: apiVersion)
