@@ -15,7 +15,7 @@
 		B858CF7C21DE6FC400D63062 /* RequestConstructer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858CF7B21DE6FC400D63062 /* RequestConstructer.swift */; };
 		B8AB36B621DF0D0D00FC0255 /* ContactsApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB36B521DF0D0D00FC0255 /* ContactsApiManager.swift */; };
 		B8D07BB921DF634A00670CFE /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D07BB821DF634A00670CFE /* ApiManager.swift */; };
-		B8DC200D21E1E1000079B2FF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DC200C21E1E1000079B2FF /* Alamofire.framework */; };
+		B8DC200D21E1E1000079B2FF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DC200C21E1E1000079B2FF /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

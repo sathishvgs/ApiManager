@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
-  s.ios.vendored_frameworks = 'ApiManager.framework'
 
   #s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag =>    
   #s.version.to_s }
@@ -38,5 +37,8 @@ Pod::Spec.new do |s|
   #s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
   s.dependency "Alamofire", "~> 4.0"
+  
+  s.frameworks = 'ApiManager'
+  s.ios.vendored_frameworks = 'ApiManager.framework'
 
 end
