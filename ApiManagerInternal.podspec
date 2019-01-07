@@ -29,16 +29,30 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
 
-  #s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag =>    
-  #s.version.to_s }
+  s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag => s.version.to_s }
 
-  s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/raw/ApiManagerZIP_1/ApiManager.zip' }
+  #s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/raw/  
+  #ApiManagerZIP_1/ApiManager.zip' } // ZIP
 
   #s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files = 'ApiManager/ApiFrameworks/*.swift'
+
+
+  # Framework1 
+  s.subspec 'Framework1' do |sp|
+    sp.source_files = 'ApiManager/ApiFrameworks/Framework1/*.swift'
+  end
+
+  # Framework2
+  s.subspec 'Framework2' do |sp|
+    sp.source_files = 'ApiManager/ApiFrameworks/Framework2/*.swift'
+  end
+
+
+  #s.exclude_files = "Classes/Exclude". // ZIP
   s.dependency "Alamofire", "~> 4.0"
 
-  s.frameworks = 'ApiManager'
-  s.ios.vendored_frameworks = 'ApiManager.framework'
+  #s.frameworks = 'ApiManager' // ZIP
+  #s.ios.vendored_frameworks = 'ApiManager.framework' // ZIP
 
 end

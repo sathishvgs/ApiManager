@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		297544639C36F3E29B1A71FF /* Pods_ApiManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A9B1F59E2BD67A9DAC7D1A /* Pods_ApiManager.framework */; };
 		B858CF6F21DE4B6000D63062 /* ApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B858CF6D21DE4B6000D63062 /* ApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B858CF7621DE4C3500D63062 /* BaseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858CF7521DE4C3500D63062 /* BaseApiManager.swift */; };
-		B858CF7821DE503900D63062 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858CF7721DE503900D63062 /* ApiConstants.swift */; };
-		B858CF7A21DE6DBB00D63062 /* ApiUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858CF7921DE6DBB00D63062 /* ApiUrlRequest.swift */; };
-		B858CF7C21DE6FC400D63062 /* RequestConstructer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858CF7B21DE6FC400D63062 /* RequestConstructer.swift */; };
-		B8AB36B621DF0D0D00FC0255 /* ContactsApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB36B521DF0D0D00FC0255 /* ContactsApiManager.swift */; };
-		B8D07BB921DF634A00670CFE /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D07BB821DF634A00670CFE /* ApiManager.swift */; };
+		B871336E21E3A6BE00D5ED22 /* RequestConstructer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336821E3A6BE00D5ED22 /* RequestConstructer.swift */; };
+		B871336F21E3A6BE00D5ED22 /* BaseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336921E3A6BE00D5ED22 /* BaseApiManager.swift */; };
+		B871337021E3A6BE00D5ED22 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336A21E3A6BE00D5ED22 /* ApiConstants.swift */; };
+		B871337121E3A6BE00D5ED22 /* ApiUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336B21E3A6BE00D5ED22 /* ApiUrlRequest.swift */; };
+		B871337221E3A6BE00D5ED22 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336C21E3A6BE00D5ED22 /* ApiManager.swift */; };
+		B871337321E3A6BE00D5ED22 /* ContactsApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871336D21E3A6BE00D5ED22 /* ContactsApiManager.swift */; };
+		B871337821E3A72500D5ED22 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B871337721E3A72500D5ED22 /* NetworkStatus.swift */; };
 		B8DC200D21E1E1000079B2FF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DC200C21E1E1000079B2FF /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -22,12 +23,13 @@
 		B858CF6A21DE4B6000D63062 /* ApiManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApiManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B858CF6D21DE4B6000D63062 /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
 		B858CF6E21DE4B6000D63062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B858CF7521DE4C3500D63062 /* BaseApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiManager.swift; sourceTree = "<group>"; };
-		B858CF7721DE503900D63062 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
-		B858CF7921DE6DBB00D63062 /* ApiUrlRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrlRequest.swift; sourceTree = "<group>"; };
-		B858CF7B21DE6FC400D63062 /* RequestConstructer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConstructer.swift; sourceTree = "<group>"; };
-		B8AB36B521DF0D0D00FC0255 /* ContactsApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApiManager.swift; sourceTree = "<group>"; };
-		B8D07BB821DF634A00670CFE /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B871336821E3A6BE00D5ED22 /* RequestConstructer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConstructer.swift; sourceTree = "<group>"; };
+		B871336921E3A6BE00D5ED22 /* BaseApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiManager.swift; sourceTree = "<group>"; };
+		B871336A21E3A6BE00D5ED22 /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		B871336B21E3A6BE00D5ED22 /* ApiUrlRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUrlRequest.swift; sourceTree = "<group>"; };
+		B871336C21E3A6BE00D5ED22 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B871336D21E3A6BE00D5ED22 /* ContactsApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsApiManager.swift; sourceTree = "<group>"; };
+		B871337721E3A72500D5ED22 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
 		B8DC200C21E1E1000079B2FF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13F3EEB3595C27364FCB61 /* Pods-ApiManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiManager/Pods-ApiManager.debug.xcconfig"; sourceTree = "<group>"; };
 		E6A9B1F59E2BD67A9DAC7D1A /* Pods_ApiManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,15 +89,40 @@
 			isa = PBXGroup;
 			children = (
 				B858CF6D21DE4B6000D63062 /* ApiManager.h */,
-				B858CF7721DE503900D63062 /* ApiConstants.swift */,
-				B858CF7921DE6DBB00D63062 /* ApiUrlRequest.swift */,
-				B858CF7B21DE6FC400D63062 /* RequestConstructer.swift */,
-				B8D07BB821DF634A00670CFE /* ApiManager.swift */,
-				B858CF7521DE4C3500D63062 /* BaseApiManager.swift */,
-				B8AB36B521DF0D0D00FC0255 /* ContactsApiManager.swift */,
 				B858CF6E21DE4B6000D63062 /* Info.plist */,
+				B871337421E3A6CF00D5ED22 /* ApiFrameworks */,
 			);
 			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		B871337421E3A6CF00D5ED22 /* ApiFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B871337521E3A6DD00D5ED22 /* Framework1 */,
+				B871337621E3A6FE00D5ED22 /* Framework2 */,
+			);
+			path = ApiFrameworks;
+			sourceTree = "<group>";
+		};
+		B871337521E3A6DD00D5ED22 /* Framework1 */ = {
+			isa = PBXGroup;
+			children = (
+				B871336A21E3A6BE00D5ED22 /* ApiConstants.swift */,
+				B871336C21E3A6BE00D5ED22 /* ApiManager.swift */,
+				B871336B21E3A6BE00D5ED22 /* ApiUrlRequest.swift */,
+				B871336921E3A6BE00D5ED22 /* BaseApiManager.swift */,
+				B871336D21E3A6BE00D5ED22 /* ContactsApiManager.swift */,
+				B871336821E3A6BE00D5ED22 /* RequestConstructer.swift */,
+			);
+			path = Framework1;
+			sourceTree = "<group>";
+		};
+		B871337621E3A6FE00D5ED22 /* Framework2 */ = {
+			isa = PBXGroup;
+			children = (
+				B871337721E3A72500D5ED22 /* NetworkStatus.swift */,
+			);
+			path = Framework2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AB36B621DF0D0D00FC0255 /* ContactsApiManager.swift in Sources */,
-				B858CF7C21DE6FC400D63062 /* RequestConstructer.swift in Sources */,
-				B858CF7A21DE6DBB00D63062 /* ApiUrlRequest.swift in Sources */,
-				B858CF7621DE4C3500D63062 /* BaseApiManager.swift in Sources */,
-				B8D07BB921DF634A00670CFE /* ApiManager.swift in Sources */,
-				B858CF7821DE503900D63062 /* ApiConstants.swift in Sources */,
+				B871337121E3A6BE00D5ED22 /* ApiUrlRequest.swift in Sources */,
+				B871336E21E3A6BE00D5ED22 /* RequestConstructer.swift in Sources */,
+				B871337221E3A6BE00D5ED22 /* ApiManager.swift in Sources */,
+				B871337321E3A6BE00D5ED22 /* ContactsApiManager.swift in Sources */,
+				B871336F21E3A6BE00D5ED22 /* BaseApiManager.swift in Sources */,
+				B871337021E3A6BE00D5ED22 /* ApiConstants.swift in Sources */,
+				B871337821E3A72500D5ED22 /* NetworkStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
