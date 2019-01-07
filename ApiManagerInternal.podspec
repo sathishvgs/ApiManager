@@ -8,13 +8,6 @@
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "ApiManagerInternal"
   s.version      = "0.0.7"
   s.summary      = "A Library For Internal purpose"
@@ -29,13 +22,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag => s.version.to_s }
+  s.source       = { git: 'https://github.com/sathishvgs/ApiManager.git', :tag => s.version.to_s }
 
   #s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/raw/  
   #ApiManagerZIP_1/ApiManager.zip' } // ZIP
 
   #s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
-  s.source_files = 'ApiManager/ApiFrameworks/*.swift'
+  s.source_files = 'ApiManager/ApiFrameworks/*'
 
 
   # Framework1 
