@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   #s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag =>    
   #s.version.to_s }
 
-  s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/blob/ApiManagerZIP_1/ApiManager.zip', :tag => s.version.to_s }
+  s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/blob/ApiManagerZIP_1/ApiManager.zip' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
