@@ -11,7 +11,7 @@ import Alamofire
 
 public class ContactsApiManager: BaseApiManager {
     
-    var targetRequest: TargetRequest?
+    public var targetRequest: TargetRequest?
     
     public override init(accessToken: String, apiMode: ApiMode, apiVersion: String) {
         super.init(accessToken: accessToken, apiMode: apiMode, apiVersion: apiVersion)
