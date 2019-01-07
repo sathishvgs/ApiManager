@@ -32,18 +32,10 @@ Pod::Spec.new do |s|
   #s.source       = { :git => "https://github.com/sathishvgs/ApiManager.git", :tag =>    
   #s.version.to_s }
 
-  s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/blob/ApiManagerZIP_1/ApiManager.zip' }
+  s.source	 = { :http => 'https://github.com/sathishvgs/ApiManagerZIP/raw/ApiManagerZIP_1/ApiManager.zip' }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
+  #s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
+  s.exclude_files = "Classes/Exclude"
   s.dependency "Alamofire", "~> 4.0"
 
 end
