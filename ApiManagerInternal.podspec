@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ApiManagerInternal"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A Library For Internal purpose"
   s.description  = <<-DESC
   A nice ApiManager file which will be helpful for Networking
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #s.source_files  = "ApiManager", "ApiManager/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
   s.dependency "Alamofire", "~> 4.0"
-  
+
   s.frameworks = 'ApiManager'
   s.ios.vendored_frameworks = 'ApiManager.framework'
 
